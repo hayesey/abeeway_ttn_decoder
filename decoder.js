@@ -1,6 +1,10 @@
 function Decoder(bytes, port) {
-  // Decode an uplink message from a buffer
-  // (array) of bytes to an object of fields.
+/*
+ * Example decoder for some Netvox sensors with The Things Network
+ * FOR TESTING PURPOSES ONLY
+ * Paul Hayes - paul@alliot.co.uk
+ */
+
   var decoded = {};
   
   // decode common header
